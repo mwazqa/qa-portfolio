@@ -34,7 +34,7 @@ Portfolio zawiera projekty podzielone na sekcje, każda ze swoją strukturą i f
 * **allure-results/**: wyniki raportów Allure
 * **.github/workflows/**: konfiguracja CI/CD dla GitHub Actions
 * **pom.xml**: konfiguracja Maven dla projektu automatyzacji
-* **README.md**: dokumentacja automatyzacji UI + API
+* **README.md**: dokumentacja automatyzacji UI
 
 ### SQL / Database Testing
 
@@ -45,7 +45,7 @@ Każdy folder i plik w portfolio jest przygotowany tak, aby łatwo można było 
 
 ---
 
-# QA Engineer Portfolio (English Version)
+# QA Engineer Portfolio
 
 ## About This Portfolio
 
@@ -81,7 +81,7 @@ The portfolio contains projects divided into sections, each with its own folder 
 * **allure-results/**: Allure report results
 * **.github/workflows/**: GitHub Actions CI/CD configuration
 * **pom.xml**: Maven configuration for automation project
-* **README.md**: UI + API automation documentation
+* **README.md**: UI automation documentation
 
 ### SQL / Database Testing
 
