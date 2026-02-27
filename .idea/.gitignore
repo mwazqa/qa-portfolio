@@ -3,3 +3,83 @@
 /workspace.xml
 # Environment-dependent path to Maven home directory
 /mavenHomeManager.xml
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE - IntelliJ IDEA
+/.idea/
+*.iml
+*.iws
+workspace.xml
+shelf/
+mavenHomeManager.xml
+
+# IDE - Others
+.vscode/
+*.code-workspace
+
+# Java / compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+*.log
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Build / package manager folders
+/build/
+/dist/
+/out/
+/node_modules/
+/bower_components/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Encrypted / key / environment files
+*.jks
+*.keystore
+*.p12
+*.pem
+*.pfx
+.env
+.env.*
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.bak
+*~
+.~*
+
+# Lockfiles
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+
+# IntelliJ coverage / test reports
+coverage/
+jacoco.exec
+surefire-reports/
+failsafe-reports/
+
+# OS and other
+.idea_modules/
+.vagrant/
+*.swp

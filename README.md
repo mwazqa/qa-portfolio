@@ -6,7 +6,7 @@ To jest portfolio dla QA Engineer, pokazujące umiejętności w:
 
 * Manual Testing
 * API Testing
-* UI Automation (Selenium + Java/Kotlin)
+* UI Automation (Selenium + Java)
 * SQL / Database Testing
 * CI/CD i raportowanie (Allure, GitHub Actions)
 
@@ -14,23 +14,23 @@ Portfolio zawiera projekty podzielone na sekcje, każda ze swoją strukturą i f
 
 ### Manual Testing Project
 
-* **TestPlan/**: dokumenty planu testów (np. Test_Plan_Ecommerce.md)
+* **TestPlan/**: dokumenty planu testów
 * **TestCases/**: przykładowe test cases w formie Excel lub Markdown
 * **BugReports/**: zgłoszenia błędów znalezionych w testach manualnych
 * **Checklists/**: listy kontrolne do szybkich sprawdzeń (smoke tests)
 
 ### API Testing (RestAssured)
 
-* **src/test/java/api/**: testy automatyczne API w Javie/Kotlin (np. AuthApiTest.java, UsersApiTest.java)
+* **src/test/java/api/**: testy automatyczne API w Javie
 * **pom.xml**: konfiguracja projektu Maven
 * **README.md**: dokumentacja testów API
 
-### Selenium Automation Java/Kotlin
+### Selenium Automation Java
 
-* **src/main/java/pages/**: Page Object Model dla stron demo (np. LoginPage.java, DashboardPage.java)
-* **src/test/java/ui/**: testy automatyczne UI (np. DemoQaLoginTest.java, CheckoutTest.java)
+* **src/main/java/pages/**: Page Object Model dla stron demo
+* **src/test/java/ui/**: testy automatyczne UI
 * **src/test/java/api/**: opcjonalne testy API używane w połączeniu z UI
-* **drivers/**: folder na sterowniki przeglądarek (np. ChromeDriver)
+* **drivers/**: folder na sterowniki przeglądarek
 * **allure-results/**: wyniki raportów Allure
 * **.github/workflows/**: konfiguracja CI/CD dla GitHub Actions
 * **pom.xml**: konfiguracja Maven dla projektu automatyzacji
@@ -53,7 +53,7 @@ This is a QA Engineer portfolio showcasing skills in:
 
 * Manual Testing
 * API Testing
-* UI Automation (Selenium + Java/Kotlin)
+* UI Automation (Selenium + Java)
 * SQL / Database Testing
 * CI/CD and reporting (Allure, GitHub Actions)
 
@@ -61,23 +61,23 @@ The portfolio contains projects divided into sections, each with its own folder 
 
 ### Manual Testing Project
 
-* **TestPlan/**: test plan documents (e.g., Test_Plan_Ecommerce.md)
+* **TestPlan/**: test plan documents
 * **TestCases/**: sample test cases in Excel or Markdown
 * **BugReports/**: bug reports discovered during manual testing
 * **Checklists/**: checklists for quick verification (smoke tests)
 
 ### API Testing (RestAssured)
 
-* **src/test/java/api/**: automated API tests in Java/Kotlin (e.g., AuthApiTest.java, UsersApiTest.java)
+* **src/test/java/api/**: automated API tests in Java
 * **pom.xml**: Maven project configuration
 * **README.md**: API test documentation
 
-### Selenium Automation Java/Kotlin
+### Selenium Automation Java
 
-* **src/main/java/pages/**: Page Object Model for demo pages (e.g., LoginPage.java, DashboardPage.java)
-* **src/test/java/ui/**: automated UI tests (e.g., DemoQaLoginTest.java, CheckoutTest.java)
+* **src/main/java/pages/**: Page Object Model for demo pages
+* **src/test/java/ui/**: automated UI tests
 * **src/test/java/api/**: optional API tests used with UI
-* **drivers/**: browser drivers folder (e.g., ChromeDriver)
+* **drivers/**: browser drivers folder
 * **allure-results/**: Allure report results
 * **.github/workflows/**: GitHub Actions CI/CD configuration
 * **pom.xml**: Maven configuration for automation project
