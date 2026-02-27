@@ -1,6 +1,6 @@
 # QA Engineer Portfolio
 
-## About This Portfolio
+## O tym portfolio
 
 To jest portfolio dla QA Engineer, pokazujące umiejętności w:
 
